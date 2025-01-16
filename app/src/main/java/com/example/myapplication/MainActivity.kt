@@ -29,7 +29,7 @@ class MainActivity : AppCompatActivity() {
 
             binding.speedometer.setSpeed(bmi.toInt(), 3000L){
 
-                Toast.makeText(thiscom.example.bm.MainActivity, "${bmi.toInt()}", Toast.LENGTH_LONG).show()
+                Toast.makeText(this@MainActivity, "${bmi.toInt()}", Toast.LENGTH_LONG).show()
 
 
             }
